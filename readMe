@@ -1,0 +1,7 @@
+Complie with static flag so it doesn't depend on other dlls and can be used in docker build with SCRATCH
+
+# gcc -static read0.c -o read0
+
+# docker build -t read0 .
+# docker run -it --rm read0
+
